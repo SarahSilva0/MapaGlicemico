@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44BFCA4289100FA00C1EC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCA3289100FA00C1EC39 /* AppDelegate.swift */; };
+		A44BFCA6289100FA00C1EC39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCA5289100FA00C1EC39 /* SceneDelegate.swift */; };
+		A44BFCAD289100FC00C1EC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44BFCAC289100FC00C1EC39 /* Assets.xcassets */; };
+		A44BFCB0289100FC00C1EC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44BFCAE289100FC00C1EC39 /* LaunchScreen.storyboard */; };
+		A44BFCC22891013F00C1EC39 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44BFCBE2891013600C1EC39 /* ResearchKit.framework */; platformFilter = ios; };
+		A44BFCC32891013F00C1EC39 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A44BFCBE2891013600C1EC39 /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A44BFCC62891016000C1EC39 /* SymptomTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCC52891016000C1EC39 /* SymptomTrackerViewController.swift */; };
+		A44BFCC92891043E00C1EC39 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = A44BFCC82891043E00C1EC39 /* CareKit */; };
+		A44BFCCB2891043E00C1EC39 /* CareKitFHIR in Frameworks */ = {isa = PBXBuildFile; productRef = A44BFCCA2891043E00C1EC39 /* CareKitFHIR */; };
+		A44BFCCD2891043E00C1EC39 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = A44BFCCC2891043E00C1EC39 /* CareKitStore */; };
+		A44BFCCF2891043E00C1EC39 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = A44BFCCE2891043E00C1EC39 /* CareKitUI */; };
+		A44BFCD1289104D900C1EC39 /* CareStoreReferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCD0289104D900C1EC39 /* CareStoreReferenceManager.swift */; };
+		A44BFCD3289104ED00C1EC39 /* Surveys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCD2289104ED00C1EC39 /* Surveys.swift */; };
+		A44BFCD52891051400C1EC39 /* InsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCD42891051400C1EC39 /* InsightsViewController.swift */; };
+		A44BFCD92891054000C1EC39 /* OCKAnyEvent+Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCD82891054000C1EC39 /* OCKAnyEvent+Answer.swift */; };
+		A44BFCDB28910DDC00C1EC39 /* OCKStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BFCDA28910DDC00C1EC39 /* OCKStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A44BFCBD2891013600C1EC39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44BFCB72891013500C1EC39 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		A44BFCBF2891013600C1EC39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44BFCB72891013500C1EC39 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A44BFCC42891013F00C1EC39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A44BFCC32891013F00C1EC39 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A44BFCA0289100FA00C1EC39 /* MapaGlicemico.1.0.0-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapaGlicemico.1.0.0-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44BFCA3289100FA00C1EC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A44BFCA5289100FA00C1EC39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A44BFCAC289100FC00C1EC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44BFCAF289100FC00C1EC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44BFCB1289100FC00C1EC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44BFCB72891013500C1EC39 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../../GitHub/WWDC21-RecoverApp/ResearchKit/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
+		A44BFCC52891016000C1EC39 /* SymptomTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerViewController.swift; sourceTree = "<group>"; };
+		A44BFCD0289104D900C1EC39 /* CareStoreReferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareStoreReferenceManager.swift; sourceTree = "<group>"; };
+		A44BFCD2289104ED00C1EC39 /* Surveys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surveys.swift; sourceTree = "<group>"; };
+		A44BFCD42891051400C1EC39 /* InsightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewController.swift; sourceTree = "<group>"; };
+		A44BFCD82891054000C1EC39 /* OCKAnyEvent+Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCKAnyEvent+Answer.swift"; sourceTree = "<group>"; };
+		A44BFCDA28910DDC00C1EC39 /* OCKStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCKStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44BFC9D289100FA00C1EC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44BFCCD2891043E00C1EC39 /* CareKitStore in Frameworks */,
+				A44BFCC92891043E00C1EC39 /* CareKit in Frameworks */,
+				A44BFCCF2891043E00C1EC39 /* CareKitUI in Frameworks */,
+				A44BFCCB2891043E00C1EC39 /* CareKitFHIR in Frameworks */,
+				A44BFCC22891013F00C1EC39 /* ResearchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44BFC97289100FA00C1EC39 = {
+			isa = PBXGroup;
+			children = (
+				A44BFCA2289100FA00C1EC39 /* MapaGlicemico.1.0.0- */,
+				A44BFCA1289100FA00C1EC39 /* Products */,
+				A44BFCC12891013F00C1EC39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A44BFCA1289100FA00C1EC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44BFCA0289100FA00C1EC39 /* MapaGlicemico.1.0.0-.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44BFCA2289100FA00C1EC39 /* MapaGlicemico.1.0.0- */ = {
+			isa = PBXGroup;
+			children = (
+				A44BFCB72891013500C1EC39 /* ResearchKit.xcodeproj */,
+				A44BFCA3289100FA00C1EC39 /* AppDelegate.swift */,
+				A44BFCA5289100FA00C1EC39 /* SceneDelegate.swift */,
+				A44BFCC52891016000C1EC39 /* SymptomTrackerViewController.swift */,
+				A44BFCD0289104D900C1EC39 /* CareStoreReferenceManager.swift */,
+				A44BFCD2289104ED00C1EC39 /* Surveys.swift */,
+				A44BFCD42891051400C1EC39 /* InsightsViewController.swift */,
+				A44BFCAC289100FC00C1EC39 /* Assets.xcassets */,
+				A44BFCAE289100FC00C1EC39 /* LaunchScreen.storyboard */,
+				A44BFCB1289100FC00C1EC39 /* Info.plist */,
+				A44BFCD82891054000C1EC39 /* OCKAnyEvent+Answer.swift */,
+				A44BFCDA28910DDC00C1EC39 /* OCKStore.swift */,
+			);
+			path = "MapaGlicemico.1.0.0-";
+			sourceTree = "<group>";
+		};
+		A44BFCB82891013500C1EC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44BFCBE2891013600C1EC39 /* ResearchKit.framework */,
+				A44BFCC02891013600C1EC39 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44BFCC12891013F00C1EC39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44BFC9F289100FA00C1EC39 /* MapaGlicemico.1.0.0- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44BFCB4289100FC00C1EC39 /* Build configuration list for PBXNativeTarget "MapaGlicemico.1.0.0-" */;
+			buildPhases = (
+				A44BFC9C289100FA00C1EC39 /* Sources */,
+				A44BFC9D289100FA00C1EC39 /* Frameworks */,
+				A44BFC9E289100FA00C1EC39 /* Resources */,
+				A44BFCC42891013F00C1EC39 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapaGlicemico.1.0.0-";
+			packageProductDependencies = (
+				A44BFCC82891043E00C1EC39 /* CareKit */,
+				A44BFCCA2891043E00C1EC39 /* CareKitFHIR */,
+				A44BFCCC2891043E00C1EC39 /* CareKitStore */,
+				A44BFCCE2891043E00C1EC39 /* CareKitUI */,
+			);
+			productName = "MapaGlicemico.1.0.0-";
+			productReference = A44BFCA0289100FA00C1EC39 /* MapaGlicemico.1.0.0-.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44BFC98289100FA00C1EC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A44BFC9F289100FA00C1EC39 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A44BFC9B289100FA00C1EC39 /* Build configuration list for PBXProject "MapaGlicemico.1.0.0-" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44BFC97289100FA00C1EC39;
+			packageReferences = (
+				A44BFCC72891043E00C1EC39 /* XCRemoteSwiftPackageReference "CareKit" */,
+			);
+			productRefGroup = A44BFCA1289100FA00C1EC39 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A44BFCB82891013500C1EC39 /* Products */;
+					ProjectRef = A44BFCB72891013500C1EC39 /* ResearchKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A44BFC9F289100FA00C1EC39 /* MapaGlicemico.1.0.0- */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A44BFCBE2891013600C1EC39 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = A44BFCBD2891013600C1EC39 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A44BFCC02891013600C1EC39 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = A44BFCBF2891013600C1EC39 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44BFC9E289100FA00C1EC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44BFCB0289100FC00C1EC39 /* LaunchScreen.storyboard in Resources */,
+				A44BFCAD289100FC00C1EC39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44BFC9C289100FA00C1EC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44BFCD1289104D900C1EC39 /* CareStoreReferenceManager.swift in Sources */,
+				A44BFCC62891016000C1EC39 /* SymptomTrackerViewController.swift in Sources */,
+				A44BFCA4289100FA00C1EC39 /* AppDelegate.swift in Sources */,
+				A44BFCDB28910DDC00C1EC39 /* OCKStore.swift in Sources */,
+				A44BFCD3289104ED00C1EC39 /* Surveys.swift in Sources */,
+				A44BFCD92891054000C1EC39 /* OCKAnyEvent+Answer.swift in Sources */,
+				A44BFCA6289100FA00C1EC39 /* SceneDelegate.swift in Sources */,
+				A44BFCD52891051400C1EC39 /* InsightsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A44BFCAE289100FC00C1EC39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44BFCAF289100FC00C1EC39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A44BFCB2289100FC00C1EC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A44BFCB3289100FC00C1EC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A44BFCB5289100FC00C1EC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7L4XS3BXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MapaGlicemico.1.0.0-/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarah.MapaGlicemico-1-0-0-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A44BFCB6289100FC00C1EC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7L4XS3BXX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MapaGlicemico.1.0.0-/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarah.MapaGlicemico-1-0-0-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44BFC9B289100FA00C1EC39 /* Build configuration list for PBXProject "MapaGlicemico.1.0.0-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44BFCB2289100FC00C1EC39 /* Debug */,
+				A44BFCB3289100FC00C1EC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44BFCB4289100FC00C1EC39 /* Build configuration list for PBXNativeTarget "MapaGlicemico.1.0.0-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44BFCB5289100FC00C1EC39 /* Debug */,
+				A44BFCB6289100FC00C1EC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A44BFCC72891043E00C1EC39 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A44BFCC82891043E00C1EC39 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A44BFCC72891043E00C1EC39 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		A44BFCCA2891043E00C1EC39 /* CareKitFHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A44BFCC72891043E00C1EC39 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitFHIR;
+		};
+		A44BFCCC2891043E00C1EC39 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A44BFCC72891043E00C1EC39 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		A44BFCCE2891043E00C1EC39 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A44BFCC72891043E00C1EC39 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A44BFC98289100FA00C1EC39 /* Project object */;
+}
